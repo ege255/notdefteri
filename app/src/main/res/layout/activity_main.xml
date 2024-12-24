@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Not Defteri"
+        android:textColor="@color/orange"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/not"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:paddingLeft="3dp"
+        android:clickable="true"
+        android:background="@drawable/arkaplan"
+        android:layout_marginTop="20dp"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:textColor="@color/white"
+        android:text="" />
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/notEkle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="330dp"
+        android:backgroundTint="@color/orange"
+        android:clickable="true"
+        app:srcCompat="@drawable/baseline_add_circle_24" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity2" >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv2_1"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="Not Ekle"
+            android:textSize="40dp" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btntamam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:clickable="true"
+            app:srcCompat="@drawable/tamam"
+            app:tint="@color/orange" />
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/tv2_2"
+        style="@style/NoUnderLineEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:freezesText="false"
+        android:hint="Not Ekle"
+        android:textColor="@color/white"
+        android:textColorHint="@color/lightgray"
+        android:textSize="15dp" />
+
+</LinearLayout>
